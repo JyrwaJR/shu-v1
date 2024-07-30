@@ -1,0 +1,54 @@
+import Link from 'next/link';
+import Fade from '@components/fade';
+import { buttonVariants } from '@components/ui/button';
+import { Text, textVariants } from '@components/text';
+import Icons from '@components/icon';
+import { NavLinks, NavLinksTypes } from '@components/nav';
+export const DesktopNav = () => {
+  return (
+    <div className="hidden lg:flex">
+      <div className="flex items-center justify-center space-x-5">
+        <NavLinksComponent links={NavLinks} />
+      </div>
+    </div>
+  );
+};
+
+type NavLinksProps = {
+  links: NavLinksTypes[];
+};
+const NavLinksComponent = ({ links }: NavLinksProps) => {
+  return (
+    <>
+      {links.map((link, index) => (
+        <>
+          {link.name === 'Resume' ? (
+            <Link
+              key={index}
+              className={buttonVariants({
+                variant: 'outline',
+                size: 'sm'
+              })}
+              href={link.url}
+              target="_blank"
+            >
+              {link.name} <Icons name="download" className="ml-2 h-4 w-4" />
+            </Link>
+          ) : (
+            <Link href={link.url} target="_self">
+              <Text
+                className={textVariants({
+                  size: 'p3',
+                  weight: 'semiBold',
+                  className: 'text-slate hover:text-green'
+                })}
+              >
+                {link.name}
+              </Text>
+            </Link>
+          )}
+        </>
+      ))}
+    </>
+  );
+};

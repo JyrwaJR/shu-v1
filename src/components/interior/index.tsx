@@ -1,0 +1,73 @@
+import React from 'react';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  type CarouselApi
+} from '../ui/carousel';
+import Fade from '@components/fade';
+import { ProjectsCard } from '@components/projects/projects-card';
+import { shuProjects } from '@src/contents/my-projects';
+import { Text } from '@components/text';
+
+const Interiors = () => {
+  const projectDesigns = shuProjects.filter(
+    (project) => project.category === 'interior'
+  );
+  const [api, setApi] = React.useState<CarouselApi>();
+  const [current, setCurrent] = React.useState(0);
+  const [count, setCount] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    setCount(api.scrollSnapList().length);
+    setCurrent(api.selectedScrollSnap() + 1);
+
+    api.on('select', () => {
+      setCurrent(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
+
+  return (
+    <>
+      <section id="projects" className="h-full overflow-hidden">
+        <div className="h-full">
+          <div className="flex flex-col items-center justify-center space-y-10 py-5">
+            <Text
+              size="displayL"
+              weight="extraBold"
+              className="whitespace-nowrap text-lightestSlate"
+            >
+              Interior Design
+            </Text>
+            <div className="flex w-full flex-col items-center justify-center px-4">
+              <Carousel
+                className="w-full max-w-sm md:max-w-6xl"
+                setApi={setApi}
+              >
+                <CarouselContent>
+                  {projectDesigns.map((project, index) => (
+                    <CarouselItem
+                      key={index}
+                      className="md:basis-1/2 lg:basis-1/3"
+                    >
+                      <ProjectsCard project={project} />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+              </Carousel>
+              <div className="py-2 text-center text-sm text-muted-foreground">
+                Slide {current} of {count}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Interiors;
