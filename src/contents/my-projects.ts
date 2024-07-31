@@ -218,5 +218,95 @@ export const shuProjects: ProjectType[] = [
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Fexterior%2Fmahindra%20shop%2FGroup%201.png?alt=media&token=0c5a7b1d-82d7-4262-a496-9bc843eafe45'
     ],
     category: 'interior'
+  },
+  // EDUCATION
+  {
+    id: '534gfdgdffdgfdgdfsrew',
+    name: 'design',
+    type: 'Transcendence space architectural response to biblical prophocies',
+    location: 'Laitryngew sohra, shillong meghalaya',
+    video: {
+      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FTHESIS_compress_1.mp4?alt=media&token=901c92aa-7b98-414c-9c2b-7c9610554701'
+    },
+    category: 'education',
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201%20(1).png?alt=media&token=752f7b0c-78a6-40c3-a107-629be7a76bb9',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201%20(2).png?alt=media&token=f7365c2d-3042-40e4-96eb-4c171cfe441a',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201%20(3).png?alt=media&token=ee1c9713-f11f-47db-82d3-81e762bb9065',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201.png?alt=media&token=730ad1aa-58db-473e-8de6-925110ede200',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fcouncelling%20center%2FGroup%201%20(1).png?alt=media&token=23e80283-6a5c-4311-8a60-93a9aba2bb39',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fcouncelling%20center%2FGroup%201%20(2).png?alt=media&token=c8d466e3-7907-4ad8-ba67-f75cc8a87930',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fcouncelling%20center%2FGroup%201%20(3).png?alt=media&token=724e209d-1bc1-4688-a5c5-1be5ac0b2aa2',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fcouncelling%20center%2FGroup%201%20(4).png?alt=media&token=e6dbfe53-1d3b-4128-8dac-9c52df4f06bb',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fcouncelling%20center%2FGroup%201.png?alt=media&token=3435a51e-2d4a-4d8a-8ef1-b2cfa38ee305',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fhostel%2FGroup%201%20(1).png?alt=media&token=da852dac-dcf5-4f20-b715-264bbfe31044',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fhostel%2FGroup%201.png?alt=media&token=c530ade7-6406-4715-9f6d-d269d50d6604',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fmuseum%2FGroup%201%20(1).png?alt=media&token=bf87d998-6604-4804-80e4-527327177af6',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fmuseum%2FGroup%201.png?alt=media&token=2885e62e-1f45-4c28-b6d9-2bdb757e5f0d',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fmuseum%2FGroup%201%20(2).png?alt=media&token=efec6c4d-892f-4ebc-a392-910e71dda44b',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fprayer%20garden%2FGroup%201%20(1).png?alt=media&token=c6f1e2f7-9902-497f-ad54-a0dc99a69cae',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fprayer%20garden%2FGroup%201%20(2).png?alt=media&token=11a4f90e-d787-4365-b1e7-6277e4fb6bb5',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fprayer%20garden%2FGroup%201.png?alt=media&token=010c5455-d87a-4699-918c-b265087794e5',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fquater%2FGroup%201%20(1).png?alt=media&token=beced7af-7066-41a7-9550-6b78d695bba9',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fquater%2FGroup%201.png?alt=media&token=7ebc8a3f-3a48-4e36-baa4-8f0689a29fba',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(1).png?alt=media&token=cca15e89-ba26-4cf8-bff7-24df3f6847ba',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(2).png?alt=media&token=70822a22-c001-4de5-b861-142fe5a27df3',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(3).png?alt=media&token=bf0739fd-7fe4-48d2-93e9-64d9f357cf57',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201.png?alt=media&token=530dbb6d-128f-45c6-93a0-599588b193c2'
+    ]
+  },
+  {
+    id: 'sdfs32432fsdfsdf',
+    name: 'Design',
+    type: 'Landscape',
+    location: 'Smith, shillong meghalaya',
+    category: 'education',
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Flandscape%2FGroup%201%20(1).png?alt=media&token=effe36fd-c7fd-41d7-b9bf-01c886d7b30d',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Flandscape%2FGroup%201%20(2).png?alt=media&token=28bd2878-dd77-4951-82e5-4e042f617e24',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Flandscape%2FGroup%201%20(3).png?alt=media&token=77011848-be61-41d6-ad29-5841783f4594',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Flandscape%2FGroup%201%20(4).png?alt=media&token=a3f6ffc2-8494-48f1-9e98-43c852af2ecf',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Flandscape%2FGroup%201%20(5).png?alt=media&token=afe2ae5a-0568-4761-b9dc-931348ae5c66',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Flandscape%2FGroup%201.png?alt=media&token=7a525296-2d11-4c75-8684-32f4402d6354'
+    ]
+  },
+  {
+    id: 'dfasdfsdf12312fasfsd',
+    name: 'Design',
+    type: 'Product Design',
+    category: 'education',
+    location: 'N/A',
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fproduct%20design%2F1shupd.jpg?alt=media&token=07db5f17-0181-4ac4-b161-ce133b4a41b1',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fproduct%20design%2F2SHUPD.jpg?alt=media&token=a78e264e-29b0-4c6b-8a7b-c7d94ebaaa2c'
+    ]
+  },
+  {
+    id: 'fghddegsg1234146423a',
+    name: 'Design',
+    type: 'Urban design',
+    category: 'education',
+    location: 'Guwahati assam',
+    video: {
+      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FGUWAHATI.mp4?alt=media&token=b63e4f9f-9ca9-4649-87cc-8b33e8a2929b'
+    },
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Furban%20design%2FGroup%201%20(1).png?alt=media&token=1a0661d7-50c1-41fe-a585-804e8638239b',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Furban%20design%2FGroup%201.png?alt=media&token=792736dd-5d0a-4fd6-98ab-7f84d91edbf5'
+    ]
+  },
+  {
+    id: 'asdfsadgasdgsf34234234xcxbcvb',
+    name: 'Design',
+    type: 'Urban design',
+    video: {
+      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FHARIJAN COLONY.mp4?alt=media&token=b31b609c-2c66-46de-b8bd-2ecd5bba2fbf'
+    },
+    category: 'education',
+    location: 'Harijan Colony, shillong meghalaya',
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Furban%20design%202%2FGroup%201%20(1).png?alt=media&token=1e619f50-a602-4b7c-b97e-3d3b80b07518',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Furban%20design%202%2FGroup%201.png?alt=media&token=2a57ad1f-9d48-4937-8b98-b06d1dd29a1a'
+    ]
   }
 ];
