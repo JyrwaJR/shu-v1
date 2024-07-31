@@ -2,7 +2,7 @@ module.exports = {
   siteUrl: 'https://jyrwaboys.vercel.app/',
   siteTitle: 'Shuker Jyrwa',
   siteDescription:
-    'Shuker Jyrwa is a Full Stack Developer based in India. He specializes in building websites, applications, and everything in between.',
+    'Experience the harmonious blend of tradition and innovation in every design.',
   email: 'shukerjyrwa@gmail.com',
   seo: {
     imageUrl: './seo/og.png',

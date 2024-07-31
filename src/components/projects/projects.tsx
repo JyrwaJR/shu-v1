@@ -31,7 +31,7 @@ const Project = () => {
   }, [api]);
 
   return (
-    <section id="projects" className="h-full overflow-hidden px-4">
+    <section id="projects" className="h-full overflow-hidden">
       <div className="h-full">
         <div className="flex flex-col items-center justify-center space-y-10 py-5">
           <Text
@@ -39,10 +39,10 @@ const Project = () => {
             weight="extraBold"
             className="whitespace-nowrap text-lightestSlate"
           >
-            Porjects Design
+            Project Designs
           </Text>
-          <div className="flex w-full flex-col items-center justify-center px-4">
-            <Carousel className="w-full max-w-sm md:max-w-6xl" setApi={setApi}>
+          <div className="flex w-full max-w-sm flex-col items-center justify-center px-4 md:max-w-6xl">
+            <Carousel className="w-full" setApi={setApi}>
               <CarouselContent>
                 {projectDesigns.map((project, index) => (
                   <CarouselItem
@@ -54,7 +54,7 @@ const Project = () => {
                 ))}
               </CarouselContent>
             </Carousel>
-            <div className="py-2 text-center text-sm text-muted-foreground">
+            <div className="py-2 text-center text-sm text-muted-foreground md:hidden">
               Slide {current} of {count}
             </div>
           </div>

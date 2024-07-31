@@ -11,7 +11,7 @@ const Footer = () => {
             Design and build by{' '}
             <Link
               target="_blank"
-              href={socialMedia[0].url}
+              href={'https://instagram.com/jyrwa_jr'}
               className="font-semibold tracking-wider text-green"
             >
               JyrwaBoy

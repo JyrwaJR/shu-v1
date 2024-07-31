@@ -41,11 +41,8 @@ const Events = () => {
             >
               Events Design
             </Text>
-            <div className="flex w-full flex-col items-center justify-center px-4">
-              <Carousel
-                className="w-full max-w-sm md:max-w-6xl"
-                setApi={setApi}
-              >
+            <div className="flex w-full max-w-sm flex-col items-center justify-center px-4 md:max-w-6xl">
+              <Carousel className="w-full " setApi={setApi}>
                 <CarouselContent>
                   {projectDesigns.map((project, index) => (
                     <CarouselItem

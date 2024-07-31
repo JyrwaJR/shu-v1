@@ -58,7 +58,7 @@ const Two = () => {
 
 const Three = () => {
   return (
-    <Text size={'displayM'} className="text-lightestSlate">
+    <Text size={'displayM'} className="text-center text-lightestSlate">
       {' '}
       Based In Shillong, Meghalaya,{' '}
       <span
@@ -103,7 +103,7 @@ const Hero = () => {
       </div>
       <div className="order-1 col-span-12 flex h-auto w-full items-end px-5 md:order-2 md:col-span-4 md:h-full md:items-center md:px-0">
         <motion.img
-          src="/assets/images/head-shot.jpg"
+          src="/seo/head-shot.jpg"
           whileHover={{
             scale: 1.05,
             transition: { duration: 0.2 },

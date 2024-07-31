@@ -5,7 +5,7 @@ const Header = () => {
   const imageUrl = `${siteUrl}/seo/og.png`;
   return (
     <React.Fragment>
-      <title>Harrison Jyrwa</title>
+      <title>Shuker Jyrwa</title>
       <meta name="description" content={siteDescription} />
       <meta property="og:url" content={siteUrl} />
       <meta property="og:type" content="website" />
@@ -19,11 +19,6 @@ const Header = () => {
       <meta name="twitter:description" content={siteDescription} />
       <meta name="twitter:image" content={imageUrl} />
       <meta name="robots" content="noindex,nofollow" />
-      {/* google site verification */}
-      <meta
-        name="google-site-verification"
-        content="Uzl1iUhs8NMazyqhy_Ei3JP3LcccLWu-uDbvdGhrLRg"
-      />
     </React.Fragment>
   );
 };

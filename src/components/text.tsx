@@ -22,7 +22,7 @@ const textVariants = cva('not-italic no-underline font-sora', {
     },
     size: {
       displayL:
-        'xl:text-6xl text-3xl xl:leading-[74px] leading-[54px] tracking-tighter',
+        'xl:text-6xl text-2xl xl:leading-[74px] leading-[54px] tracking-tighter',
       displayM: 'md:text-3xl text-2xl leading-8 tracking-tighter',
       subHeading: 'text-[40px] leading-10 tracking-tighter',
       h1: 'text-4xl leading-[44px] tracking-tighter',
