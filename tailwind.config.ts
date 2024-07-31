@@ -11,13 +11,13 @@ const config = {
   ],
   theme: {
     container: {
-      // padding: {
-      //   DEFAULT: '1rem',
-      //   sm: '3rem',
-      //   lg: '5rem',
-      //   xl: '6rem',
-      //   '2xl': '8rem'
-      // },
+      padding: {
+        DEFAULT: '1rem',
+        sm: '3rem',
+        lg: '5rem',
+        xl: '6rem',
+        '2xl': '8rem'
+      },
       center: true,
       screens: {
         '2xl': '1920px',

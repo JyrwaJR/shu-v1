@@ -15,13 +15,11 @@ const Page = () => {
   return (
     <ScrollArea className="bg-backgrond">
       <Nav isLoaded={isMounted} />
-      <div className="md:container">
-        <Hero />
-        <Projects />
-        <Events />
-        <Interiors />
-        <Education />
-      </div>
+      <Hero />
+      <Projects />
+      <Events />
+      <Interiors />
+      <Education />
       <Footer />
     </ScrollArea>
   );
