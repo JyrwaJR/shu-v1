@@ -12,6 +12,7 @@ export type ProjectType = {
 };
 
 export const shuProjects: ProjectType[] = [
+  // PROJECTS
   {
     id: '6a4ba8a6-b64a-5094-9fc4-83553752622a',
     type: 'residential design',
@@ -200,24 +201,32 @@ export const shuProjects: ProjectType[] = [
     category: 'interior',
     location: 'Nongstoin nongpyndeng, West khasi hills district',
     image: [
-      // TODO : Add images
-    ],
-    desc: '',
-    video: {
-      // TODO : Add video
-      url: ''
-    }
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2Fliving%20room%2FGroup%201%20(1).png?alt=media&token=a4683631-ea88-4bb0-a1cd-2b93548e3324'
+    ]
   },
   {
     id: '1699a0f8-e43b-5d63-bcf0-7e9f25e92e16',
-    type: 'Mahindra Shop',
-    name: 'Mahindra Shop',
-    location: 'nongmynsong, shillong meghalaya',
+    type: 'Mahindra Shop Spare Parts',
+    name: 'design',
+    location: 'Mylliem, shillong meghalaya',
     image: [
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Fexterior%2Fmahindra%20shop%2FGroup%201%20(1).png?alt=media&token=f4e6a3ed-c33b-4766-8fd2-e4c398df995e',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Fexterior%2Fmahindra%20shop%2FGroup%201.png?alt=media&token=0c5a7b1d-82d7-4262-a496-9bc843eafe45'
     ],
     category: 'interior'
+  },
+  {
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2FBANQUET%20HALL%2FGroup%201%20(1).png?alt=media&token=33980607-ad1f-4c27-a08b-0772aeb486d5'
+    ],
+    id: 'asdfdsfsdfsaf',
+    name: 'Design',
+    type: 'Banquet Hall',
+    location: 'Nongmynsong, shillong meghalaya',
+    category: 'interior',
+    video: {
+      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FBANQUET HALL_compress_3.mp4?alt=media&token=c54490a1-76c4-4a38-995d-f00f60bf227e'
+    }
   },
   // EDUCATION
   {
