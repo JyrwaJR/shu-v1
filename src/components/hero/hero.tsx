@@ -93,8 +93,8 @@ const items = [Zero, One, Two, Three, Four];
 
 const Hero = () => {
   return (
-    <div className="flex h-screen md:container">
-      <div className="order-2  md:order-1 md:h-full md:px-0">
+    <div className="grid h-screen grid-cols-12 md:container">
+      <div className="order-2 col-span-12 flex h-auto w-full items-center justify-center px-5 md:order-1 md:col-span-8 md:h-full md:px-0">
         <div className="flex h-full flex-col items-center justify-start space-y-0 md:items-start md:justify-center md:space-y-2">
           {items.map((Item, index) => (
             <Item key={index} />
