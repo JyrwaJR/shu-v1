@@ -178,7 +178,23 @@ export const shuProjects: ProjectType[] = [
     image: [
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Fexterior%2Fupper%20mawprem%2FGroup%201%20(4).png?alt=media&token=077e04c7-b2e5-443e-be94-a142ca99d8a9',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Fexterior%2Fupper%20mawprem%2FGroup%201%20(3).png?alt=media&token=97d180a0-77b9-4617-b9e5-e50eba1e8d5e'
-    ]
+    ],
+    video: {
+      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FBEDROOM_compress_1.mp4?alt=media&token=a7c3826d-7737-4165-b5dd-4ac4eb913031'
+    }
+  },
+  {
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2FBANQUET%20HALL%2FGroup%201%20(1).png?alt=media&token=33980607-ad1f-4c27-a08b-0772aeb486d5'
+    ],
+    id: 'asdfdsfsdfsaf',
+    name: 'Design',
+    type: 'Banquet Hall',
+    location: 'Nongmynsong, shillong meghalaya',
+    category: 'interior',
+    video: {
+      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FBANQUET HALL_compress_3.mp4?alt=media&token=c54490a1-76c4-4a38-995d-f00f60bf227e'
+    }
   },
   {
     id: '5',
@@ -205,6 +221,18 @@ export const shuProjects: ProjectType[] = [
     ]
   },
   {
+    id: 'intesfasdfasfdsd',
+    category: 'interior',
+    location: 'Mawprem, shillong meghalaya',
+    type: 'Common Room',
+    image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2Fmawprem%20living%20room%2FGroup%201%20(1).png?alt=media&token=cf5a0372-a387-4ad6-9065-51948719e36e',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2Fmawprem%20living%20room%2FGroup%201%20(2).png?alt=media&token=8549f4e0-8c63-4430-81e4-7f742d159892',
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2Fmawprem%20living%20room%2FGroup%201.png?alt=media&token=f4d7dfec-8a2c-488f-8c06-932aae8d2323'
+    ],
+    name: 'design'
+  },
+  {
     id: '1699a0f8-e43b-5d63-bcf0-7e9f25e92e16',
     type: 'Mahindra Shop Spare Parts',
     name: 'design',
@@ -214,19 +242,6 @@ export const shuProjects: ProjectType[] = [
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Fexterior%2Fmahindra%20shop%2FGroup%201.png?alt=media&token=0c5a7b1d-82d7-4262-a496-9bc843eafe45'
     ],
     category: 'interior'
-  },
-  {
-    image: [
-      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Finterior%2FBANQUET%20HALL%2FGroup%201%20(1).png?alt=media&token=33980607-ad1f-4c27-a08b-0772aeb486d5'
-    ],
-    id: 'asdfdsfsdfsaf',
-    name: 'Design',
-    type: 'Banquet Hall',
-    location: 'Nongmynsong, shillong meghalaya',
-    category: 'interior',
-    video: {
-      url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FBANQUET HALL_compress_3.mp4?alt=media&token=c54490a1-76c4-4a38-995d-f00f60bf227e'
-    }
   },
   // EDUCATION
   {
@@ -239,6 +254,7 @@ export const shuProjects: ProjectType[] = [
     },
     category: 'education',
     image: [
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201.png?alt=media&token=530dbb6d-128f-45c6-93a0-599588b193c2',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201%20(1).png?alt=media&token=752f7b0c-78a6-40c3-a107-629be7a76bb9',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201%20(2).png?alt=media&token=f7365c2d-3042-40e4-96eb-4c171cfe441a',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fchapel%2FGroup%201%20(3).png?alt=media&token=ee1c9713-f11f-47db-82d3-81e762bb9065',
@@ -260,8 +276,7 @@ export const shuProjects: ProjectType[] = [
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fquater%2FGroup%201.png?alt=media&token=7ebc8a3f-3a48-4e36-baa4-8f0689a29fba',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(1).png?alt=media&token=cca15e89-ba26-4cf8-bff7-24df3f6847ba',
       'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(2).png?alt=media&token=70822a22-c001-4de5-b861-142fe5a27df3',
-      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(3).png?alt=media&token=bf0739fd-7fe4-48d2-93e9-64d9f357cf57',
-      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201.png?alt=media&token=530dbb6d-128f-45c6-93a0-599588b193c2'
+      'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fimages%2Feducation%2Fthesis%2Fsite%20plan%2FGroup%201%20(3).png?alt=media&token=bf0739fd-7fe4-48d2-93e9-64d9f357cf57'
     ]
   },
   {
