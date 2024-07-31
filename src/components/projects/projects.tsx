@@ -7,6 +7,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
   type CarouselApi
 } from '../ui/carousel';
 const Project = () => {
@@ -43,7 +45,7 @@ const Project = () => {
           </Text>
           <div className="flex w-full max-w-sm flex-col items-center justify-center px-4 md:max-w-6xl">
             <Carousel className="w-full" setApi={setApi}>
-              <CarouselContent>
+              <CarouselContent className="space-x-4">
                 {projectDesigns.map((project, index) => (
                   <CarouselItem
                     key={index}
@@ -53,6 +55,8 @@ const Project = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
+              <CarouselNext />
+              <CarouselPrevious />
             </Carousel>
             <div className="py-2 text-center text-sm text-muted-foreground md:hidden">
               Slide {current} of {count}
