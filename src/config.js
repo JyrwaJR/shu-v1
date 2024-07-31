@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://jyrwaboys.vercel.app/',
+  siteUrl: 'https://shukerjyrwa.vercel.app/',
   siteTitle: 'Shuker Jyrwa',
   siteDescription:
     'Experience the harmonious blend of tradition and innovation in every design.',
@@ -7,7 +7,7 @@ module.exports = {
   seo: {
     imageUrl: './seo/og.png',
     imageUrlTwitter: './seo/og@2x.png',
-    twitterUsername: '@jyrwaboys'
+    twitterUsername: '@ShukerJyrwa'
   },
   socialMedia: [
     {
