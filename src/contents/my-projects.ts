@@ -132,7 +132,7 @@ export const shuProjects: ProjectType[] = [
     id: '5096b85d-0472-506sf-aeaf-70e0fc88f573',
     type: 'Cultural Event Design',
     name: `monolith festival '24`,
-    location: 'Maphlang, shillong meghalaya',
+    location: 'Mawphlang, shillong meghalaya',
     desc: "The project involves creating a zoning layout for a monolith festival held in Mawphlang, integrating various design elements such as stage and shop designs. It incorporates traditional Khasi architectural motifs, blending them seamlessly into the festival's overall design",
     video: {
       url: 'https://firebasestorage.googleapis.com/v0/b/shu-v-3833f.appspot.com/o/shu-v1%2Fassets%2Fvideos%2FMONOLITH_compress_1.mp4?alt=media&token=8e842cb0-89f3-4f52-8aa1-39977b8a3154'
