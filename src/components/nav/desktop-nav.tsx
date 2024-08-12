@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Fade from '@components/fade';
 import { buttonVariants } from '@components/ui/button';
 import { Text, textVariants } from '@components/text';
 import Icons from '@components/icon';
